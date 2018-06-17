@@ -1,0 +1,63 @@
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+}
+
+div {
+	position: relative;
+	
+}
+.row  {
+	width: 100%
+}
+.box {
+	float:left;	
+}
+.box-content {
+	border: 1px solid;
+	margin: 10px;
+	background: grey;
+	padding: 20px;
+}
+.box-title{
+	position: absolute;
+	text-align: center;
+	width: 10em;
+	top: 0px;
+	right: 0px;
+	border: 1px solid;
+	margin: -1px;
+}
+.pink {
+	background: pink;
+}
+.red {
+	background: red;
+}
+.yellow {
+	background: yellow;
+}
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33.33%;
+	}
+}
+
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
