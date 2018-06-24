@@ -1,0 +1,15 @@
+.container-content{
+	background: grey;
+	padding: 5px;
+	margin: 10px;
+}
+#header-nav {
+	border-bottom-style: groove;
+}
+#header-nav .container{
+	min-height: 100px;
+}
+.navbar-brand a{
+	text-decoration: none;
+	color: black;
+}
